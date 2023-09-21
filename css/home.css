@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("../images/f1.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; 
+    opacity: 0.8;
+  }
+  .header{
+  display: flex;
+  height: 60px;
+  }
+ .logo img{
+  width: 100%;
+  height: 100%;
+  margin-left:40px ;
+  }
+  image img{
+    object-fit: cover;
+ }
+
+  .items{
+    position: relative;
+  }
+      
+.items ul{
+  display: flex;
+  margin-left: 800px;
+  margin-top: 20px;
+  gap: 40px;
+}
+.items ul li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.items ul li a{
+  color: white;
+  text-decoration: none;
+}
+      
+      
